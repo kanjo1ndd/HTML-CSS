@@ -1,0 +1,366 @@
+@media screen and (max-width: 1000px) {
+    .rebuild-first-containers {
+        flex-wrap: wrap;
+    }
+    .content-first-containers {
+        width: 45%;
+        margin: 15px;
+    }
+    .rebuild-third-containers {
+        flex-direction: column;
+        align-items: center;
+    }
+    .content-third-containers {
+        width: 95%;
+        margin: 3%;
+        height: 30vw;
+    }
+    .content {
+        height: 100%;
+    }
+    .text_edit_for_content_first {
+        font-size: 2.05vw;
+    }
+    .text_edit_for_content_second {
+        font-size: 3.4vw;
+    }
+    .text_edit_for_content_third {
+        font-size: 1.5vw;
+    }
+    .text_edit2lvl_for_content_first {
+        font-size: 1.8vw; 
+    }
+    .text_edit2lvl_for_content_second {
+        font-size: 1.3vw; 
+    }
+    .text_edit2lvl_for_content_third {
+        font-size: 1.3vw; 
+    }
+    .text_edit3lvl {
+        font-size: 1.6vw;
+    }
+    .small_icon_3lvl {
+        width: 3%; 
+        height: 3%; 
+        padding-left: 5%;
+    }
+    .for_3lvl_button {
+        font-size: 2vw;
+    }
+    .in_3lvl_icon {
+        font-size: 2vw;
+        top: 10%;
+    }
+    .for_p_of1 {
+        font-size: 1.7vw;
+    }
+    .for_p_of2 {
+        font-size: 1.5vw;
+    }
+    thead th {
+        font-size: 1.3vw;
+    }
+    tbody td {
+        font-size: 1.3vw;
+    }
+    .rebuild-thirdof2-container {
+        height: 37vw;
+    }
+    .for_footer {
+        font-size: 1.5vw;
+    }
+    .for_footer_of2 {
+        padding-left: 49%;
+    }
+    .for_button_in_main {
+        font-size: 1.4vw;
+    }
+    .str2_rebuild_containers {
+        flex-direction: column-reverse;
+    }
+    .str2_first_container {
+        width: 95%;
+        height: 69vw;
+        margin: 2%;
+    }
+    .str2_second_container {
+        width: 95%;
+        height: 40vw;
+        margin: 2%;
+        margin-bottom: 7.5%;
+    }
+    .str2_text_edit {
+        font-size: 1.5vw;
+    }
+    .str2_for_p_of1 {
+        font-size: 1.7vw;
+    }
+    .str2_for_p_of2 {
+        font-size: 1.5vw;
+    }
+    .for_button {
+        padding-left: 48%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .menu {
+        display: none;
+    }
+    .content {
+        padding-left: 0%;
+        width: 100%;
+    }
+    .text_edit_for_content_first {
+        font-size: 2.6vw;
+    }
+    .text_edit_for_content_second {
+        font-size: 4.3vw;
+    }
+    .text_edit_for_content_third {
+        font-size: 2vw;
+    }
+    .text_edit2lvl_for_content_first {
+        font-size: 2.2vw; 
+    }
+    .text_edit2lvl_for_content_second {
+        font-size: 1.6vw; 
+    }
+    .text_edit2lvl_for_content_third {
+        font-size: 1.6vw; 
+    }
+    .content-third-containers {
+        height: 37vw;
+    }
+    .text_edit3lvl {
+        font-size: 2vw;
+    }
+    .for_p_of1 {
+        font-size: 2vw;
+    }
+    .for_p_of2 {
+        font-size: 1.8vw;
+    }
+    thead th {
+        font-size: 1.6vw;
+    }
+    tbody td {
+        font-size: 1.6vw;
+    }
+    .rebuild-thirdof2-container {
+        height: 45vw;
+    }
+    .for_footer {
+        font-size: 1.9vw;
+    }
+    .for_head {
+        padding-left: 30%; 
+        font-size: 3vw;
+    }
+    .for_head_button {
+        display: inline;
+        width: 10%;
+        border: none;
+        background-color: rgb(230, 227, 227);
+    }
+    .nav:hover .drop {
+        display: block;
+    }
+    .str2_first_container {
+        height: 85vw;
+    }
+    .str2_second_container {
+        height: 50vw;
+    }
+    .str2_text_edit {
+        font-size: 1.8vw;
+    }
+    .str2_for_p_of1 {
+        font-size: 2vw;
+    }
+    .str2_for_p_of2 {
+        font-size: 1.8vw;
+    }
+    .for_button {
+        padding-left: 56.5%;
+    }
+    .for_button_in_main {
+        font-size: 1.7vw;
+    }
+}
+@media screen and (max-width: 650px) {
+    .rebuild-second-containers {
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu {
+        display: none;
+    }
+    .content {
+        padding-left: 0%;
+        width: 100%;
+        height: 100%;
+    }
+    .content-second-containers {
+        width: 95%;
+        margin: 5%;
+        height: 70vw;
+    }
+    .content-first-containers {
+        width: 43%;
+    }
+    .text_edit_for_content_first {
+        font-size: 2.4vw;
+    }
+    .text_edit_for_content_second {
+        font-size: 4.1vw;
+    }
+    .text_edit_for_content_third {
+        font-size: 1.8vw;
+    }
+    .text_edit2lvl_for_content_first {
+        font-size: 4vw;
+    }
+    .text_edit2lvl_for_content_second {
+        font-size: 2.7vw; 
+    }
+    .text_edit2lvl_for_content_third {
+        font-size: 2.7vw; 
+    }
+    .text_edit3lvl {
+        font-size: 2.5vw;
+    }
+    .content-third-containers {
+        height: 45vw;
+    }
+    .in_3lvl_icon {
+        top: 20%;
+    }
+    .for_p_of1 {
+        font-size: 2.4vw;
+    }
+    .for_p_of2 {
+        font-size: 2.2vw;
+    }
+    thead th {
+        font-size: 2vw;
+    }
+    tbody td {
+        font-size: 2vw;
+    }
+    .rebuild-thirdof2-container {
+        height: 50vw;
+    }
+    .for_head {
+        font-size: 3.3vw;
+    }
+    .str2_first_container {
+        height: 92vw;
+    }
+    .str2_second_container {
+        height: 55vw;
+    }
+    .str2_text_edit {
+        font-size: 2.1vw;
+    }
+    .str2_for_p_of1 {
+        font-size: 2.3vw;
+    }
+    .str2_for_p_of2 {
+        font-size: 2.1vw;
+    }
+    .for_button {
+        padding-left: 55.5%;
+    }
+    .nav {
+        left: 3.5%;
+        margin-top: 2.1%;
+    }
+    .for_button_in_main {
+        font-size: 1.9vw;
+    }
+}
+@media screen and (max-width: 500px) {
+    .rebuild-first-containers {
+        flex-direction: column;
+        align-items: center;
+    }
+    .content-first-containers {
+        width: 90%;
+        margin: 5%;
+        height: 40vw;
+    }
+    .content {
+        padding-left: 0%;
+        width: 100%;
+        height: 100%;
+    }
+    .text_edit_for_content_first {
+        font-size: 5.1vw;
+    }
+    .text_edit_for_content_second {
+        font-size: 8.5vw;
+    }
+    .text_edit_for_content_third {
+        font-size: 2.5vw;
+    }
+    .content-third-containers {
+        height: 50vw;
+    }
+    .for_3lvl_button {
+        font-size: 2.5vw;
+    }
+    .in_3lvl_icon {
+        font-size: 2.5vw;
+        top: 20%;
+    }
+    .for_p_of1 {
+        font-size: 2.8vw;
+    }
+    .for_p_of2 {
+        font-size: 2.6vw;
+    }
+    thead th {
+        font-size: 2.4vw;
+    }
+    tbody td {
+        font-size: 2.4vw;
+    }
+    .rebuild-thirdof2-container {
+        height: 55vw;
+    }
+    .for_footer {
+        font-size: 2.3vw;
+    }
+    .for_footer_of2 {
+        padding-left: 39%;
+    }
+    .for_head {
+        font-size: 3.7vw;
+        padding-left: 35%;
+    }
+    .str2_first_container {
+        height: 100vw;
+    }
+    .str2_second_container {
+        height: 60vw;
+    }
+    .str2_text_edit {
+        font-size: 2.4vw;
+    }
+    .str2_for_p_of1 {
+        font-size: 2.6vw;
+    }
+    .str2_for_p_of2 {
+        font-size: 2.4vw;
+    }
+    .for_button {
+        padding-left: 55%;
+    }
+    .nav {
+        left: 5%;
+        margin-top: 3%;
+    }
+    .for_button_in_main {
+        font-size: 2.1vw;
+    }
+}

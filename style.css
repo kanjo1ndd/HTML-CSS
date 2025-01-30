@@ -1,0 +1,313 @@
+body {
+    height: 100%;
+    margin: 0;
+}
+.menu {
+    background-color: rgb(255, 255, 255); 
+    width: 20%; 
+    height: 100%;
+    box-shadow: 5px 0px 3px rgb(158, 153, 153); 
+    position: fixed;
+}
+.content {
+    padding-left: 21%;
+    background-color: rgb(230, 227, 227);
+    width: 80%;
+    height: 100%;
+}
+.justify-content {
+    justify-content: space-around; 
+}
+.flex-container {
+    display: flex;
+}
+.content-first-containers {
+    width: 22%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 10px rgb(158, 153, 153);
+}
+.content-second-containers {
+    width: 30.3%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 10px rgb(158, 153, 153);
+}
+.content-third-containers {
+    width: 46.7%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 10px rgb(158, 153, 153);
+    height: 25vw;
+}
+.text_edit_for_content_first {
+    position: relative;
+    bottom: 35%; 
+    font-size: 1vw;
+}
+.text_edit_for_content_second {
+    position: relative; 
+    bottom: 35%; 
+    font-size: 1.7vw;
+}
+.text_edit_for_content_third {
+    position: relative;
+    left: 10%; 
+    bottom: 25%;
+    font-size: 1vw;
+}
+.for_small_icon {
+    position: relative; 
+    height: 8%; 
+    width: 5%;
+    top: 0.5%
+}
+.for_icon {
+    width: 30%;
+    height: 15%;
+    padding-top: 10%; 
+    padding-bottom: 10%; 
+    position: relative; 
+    bottom: 10%; 
+    left: 10%; 
+    box-shadow: 3px 3px 10px rgb(158, 153, 153);
+}
+.for_in_icon {
+    position: absolute;
+    width: 50%; 
+    left: 25%;
+    bottom: 23%;
+}
+.for_hr {
+    width: 80%; 
+    position: relative; 
+    bottom: 30%;
+}
+.for_secondlvl_icon {
+    width: 85%; 
+    height: 65%; 
+    position: relative; 
+    left: 7.5%; 
+    bottom: 5%;
+    box-shadow: 3px 3px 10px rgb(158, 153, 153);
+}
+.for_secondlvl_small_icon {
+    width: 95%; 
+    height: 80%;
+    padding-left: 2.5%; 
+    padding-top: 7.5%;
+}
+.text_edit2lvl_for_content_first {
+    position: relative;
+    font-size: 1.5vw; 
+    padding-left: 7%;
+}
+.text_edit2lvl_for_content_second {
+    position: relative; 
+    font-size: 1vw; 
+    padding-left: 7%;
+}
+.text_edit2lvl_for_content_third {
+    position: relative;
+    font-size: 1vw; 
+    padding-left: 7%; 
+    top: 5%;
+}
+.for_2lvlhr {
+    width: 85%; 
+    position: relative; 
+    top: 2.5%;
+}
+.for_2lvlsmall_icon {
+    height: 5%; 
+    width: 5%;
+}
+.for_3lvlhr {
+    width: 90%;
+}
+.for_thirdlvl_icon {
+    width: 90%; 
+    height: 25%; 
+    position: relative; 
+    left: 5%; 
+    bottom: 5%;
+    box-shadow: 3px 3px 10px rgb(158, 153, 153);
+}
+.in_3lvl_icon {
+    font-size: 1.2vw;
+    position: relative; 
+    left: 5%; 
+    top: 17.5%
+}
+.content_in3lvl {
+    flex-direction: row; 
+    display: flex; 
+    padding-left: 6%;
+}
+.in_3lvl_div {
+    width: 72.5%; 
+    padding-left: 2.5%;
+}
+.small_icon_3lvl {
+    width: 5%; 
+    height: 5%; 
+    padding-left: 2%;
+    padding-top: 1.5%;
+}
+.text_edit3lvl {
+    font-size: 1.1vw;
+}
+.for_3lvl_button {
+    width: 20%; 
+    font-size: 1.2vw; 
+    border: none;
+    transition: .2s linear;
+    background-color: rgb(224, 175, 14);
+    border-radius: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.for_3lvl_button:hover {
+    box-shadow: rgb(219, 187, 80) 0 0px 0px 40px inset;
+}
+.for_thirdlvl_of2_icon {
+    width: 90%; 
+    height: 30%; 
+    position: relative; 
+    left: 5%; 
+    bottom: 10%;
+    box-shadow: 3px 3px 10px rgb(158, 153, 153);
+}
+.for_p_of1 {
+    padding-top: 5%; 
+    padding-left: 5%; 
+    font-size: 1.2vw;
+}
+.for_p_of2 {
+    padding-left: 5%;
+    font-size: 1vw;
+}
+thead th {
+    color: rgb(13, 145, 179);
+    width: 0.05%;
+    border-bottom: 1px solid black;
+    padding-bottom: 2%;
+    font-size: 1vw;
+}
+tbody td {
+    text-align: center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    border-bottom: 1px solid black;
+    font-size: 1vw;
+}
+.for_footer {
+    font-size: 1.2vw;
+}
+.for_footer_of2 {
+    padding-left: 58%;
+}
+.for_head {
+    padding-top: 1.5%; 
+    padding-left: 10%; 
+    font-size: 2.5vw;
+}
+.for_head_button {
+    display: none;
+}
+.nav {
+    position: relative;
+    left: 2.5%;
+    margin-top: 1.5%;
+    height: 50%;
+}
+.drop {
+    position: absolute;
+    display: none;
+}
+.drop ul li {
+    color: black;
+    display: block;
+    width: 500%;
+}
+.nav:hover .drop {
+    display: block;
+    z-index: 99999999; 
+}
+.for_button_in_main {
+    border: none;
+    padding-top: 7.5%;
+    padding-bottom: 7.5%;
+    width: 90%;
+    text-align: left;
+    font-size: 1.15vw;
+    padding-left: 10%;
+    transition: background 2s;
+}
+.for_button_in_main:active {
+    background-color: rgb(185, 2, 63);
+    color: white;
+    transition: background 0.2s;
+}
+.str2_first_container {
+    width: 60%;
+    height: 48vw;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 10px rgb(158, 153, 153);
+}
+.str2_second_container {
+    width: 32%;
+    height: 25vw;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 10px rgb(158, 153, 153);
+    text-align: center;
+}
+.str2_for_icon {
+    position: relative;
+    box-shadow: 3px 3px 10px rgb(158, 153, 153);
+    width: 92.5%; 
+    height: 20%;
+    left: 3.5%;
+    bottom: 7.5%;
+}
+.str2_div_first_container {
+    width: 26%;
+    padding-bottom: 2%;
+}
+.str2_text_edit {
+    font-size: 1.3vw;
+}
+.str2_div_second_container {
+    width: 43%;
+    padding-bottom: 2%;
+}
+.str2_div_third_container {
+    width: 93%;
+    padding-bottom: 2%;
+}
+.str2_for_p_of1 {
+    padding-top: 5%; 
+    padding-left: 5%; 
+    font-size: 1.4vw;
+    color: white;
+}
+.str2_for_p_of2 {
+    padding-left: 5%;
+    padding-top: 2.5%;
+    font-size: 1.2vw;
+    color: white;
+}
+.str2_button {
+    width: 167.5%; 
+    height: 175%;
+    font-size: 1.5vw;
+    color: white;
+    background-color: rgb(185, 2, 63);
+    border: none;
+    box-shadow: 0 5px 15px 0 rgb(158, 153, 153);
+    transition: 0.5s;
+}
+.str2_button:hover {
+    transform: translate(0,-3px);
+    box-shadow: 0 10px 40px 0 rgb(158, 153, 153);
+}
+.for_button {
+    padding-left: 23.5%;
+}
